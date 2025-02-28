@@ -1,6 +1,0 @@
-#<Horizon Computations MRU V1.0>
-"Top 1_Trough"	"Top 1_Peak"
-"Top 1_Peak"	"RedPeak SNP"
-"Top 1"	"PFJ_RDPK AP"
-"Top 1"	"Top 1 AP"
-"Base"	"Base AP"

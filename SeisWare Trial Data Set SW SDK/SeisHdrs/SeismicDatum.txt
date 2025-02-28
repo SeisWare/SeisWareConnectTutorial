@@ -1,8 +1,0 @@
-#<SeisWare Seismic Datum File>
-
-struct SeismicDatum {
-    Depth
-    Units
-}
-
-SeismicDatum 6000.000000 "ft"

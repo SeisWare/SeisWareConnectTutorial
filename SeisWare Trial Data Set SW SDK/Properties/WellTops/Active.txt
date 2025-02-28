@@ -1,7 +1,0 @@
-# <SeisWare Active Well Tops Property File>
-
-struct Active {
-    Name
-}
-
-Active "Default"
