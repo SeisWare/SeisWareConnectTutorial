@@ -1,0 +1,9 @@
+#<SeisWare Seismic Layer Properties v1.0>
+
+struct LayerOrder {
+    ID
+    IsActive
+}
+
+LayerOrder "64e4b41d-1ef7-43e4-a8e1-5cbe3545f1be" False
+LayerOrder "d87c8fef-fd88-42d2-aaa8-b3e8110cec5f" False

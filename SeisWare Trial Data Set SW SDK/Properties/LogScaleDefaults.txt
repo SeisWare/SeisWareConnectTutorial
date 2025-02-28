@@ -1,0 +1,22 @@
+# <Log Scale Defaults>
+
+struct LogScaleDefault {   CurveName CurveType CurveUnits Left Right Major Minor MajorGridLines MinorGridLines LineWidth LineColorRed LineColorGreen LineColorBlue FillLeft FillRight FillValue FillColorRed FillColorGreen FillColorBlue
+}
+
+LogScaleDefault "AC" "Sonic" "us/m" 500 100 0 0 0 0 0 0 0 255 0 0 0 0 0 255
+LogScaleDefault "AC" "Sonic" "us/ft" 140 40 0 0 0 0 0 0 0 255 0 0 0 0 0 255
+LogScaleDefault "AC" "Sonic" "usec/m" 500 100 0 0 0 0 0 0 0 255 0 0 0 0 0 255
+LogScaleDefault "AC" "Sonic" "usec/ft" 140 40 0 0 0 0 0 0 0 255 0 0 0 0 0 255
+LogScaleDefault "DT" "Sonic" "us/m" 500 100 0 0 0 0 0 0 0 255 0 0 0 0 0 255
+LogScaleDefault "DT" "Sonic" "us/ft" 140 40 0 0 0 0 0 0 0 255 0 0 0 0 0 255
+LogScaleDefault "DT" "Sonic" "usec/m" 500 100 0 0 0 0 0 0 0 255 0 0 0 0 0 255
+LogScaleDefault "DT" "Sonic" "usec/ft" 140 40 0 0 0 0 0 0 0 255 0 0 0 0 0 255
+LogScaleDefault "GR" "Gamma Ray" "API" 0 150 0 0 0 0 0 0 255 0 1 0 60 0 255 0
+LogScaleDefault "RHOB" "Density" "kg/m3" 2000 3000 0 0 0 0 0 0 255 255 0 0 0 0 255 255
+LogScaleDefault "RHOB" "Density" "g/cc" 2 3 0 0 0 0 0 0 255 255 0 0 0 0 255 255
+LogScaleDefault "DPHI" "Any" "Any" -0.15 0.45 0 0 0 0 0 128 128 128 0 0 0 128 128 128
+LogScaleDefault "NPHI" "Any" "Any" 0.45 -0.15 0 0 0 0 0 128 128 128 0 0 0 128 128 128
+LogScaleDefault "CAL" "Any" "mm" 125 375 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LogScaleDefault "CAL" "Any" "in" 6 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LogScaleDefault "SP" "Unknown" "Any" -20 80 0 0 0 0 0 0 255 255 0 0 0 0 255 255
+LogScaleDefault "ILD" "Any" "ohmm" 0.2 2000 0 0 0 0 0 0 0 255 0 0 0 0 0 255

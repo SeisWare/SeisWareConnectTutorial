@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--SeisWare Seismic Line By Line Attributes-->
+<SeisWare>
+   <SynthDefn>
+      <UWI>490252319500</UWI>
+      <Name>Synthetic</Name>
+      <LeftLineID>3D</LeftLineID>
+      <RightLineID>3D</RightLineID>
+      <LeftLocation Trace="69" Line="255"/>
+      <RightLocation Trace="70" Line="255"/>
+      <IsDynamic>True</IsDynamic>
+      <IsOverlay>False</IsOverlay>
+      <DensityName></DensityName>
+      <DensitySource></DensitySource>
+      <SonicName>DT</SonicName>
+      <SonicSource>PFJ</SonicSource>
+      <OutputRMS>10000.000000</OutputRMS>
+      <SampleRate>0.002000</SampleRate>
+      <WaveletType>Ricker</WaveletType>
+      <RickerFrequency>40.000000</RickerFrequency>
+      <Phase>0.000000</Phase>
+      <Temperature>1.000000</Temperature>
+   </SynthDefn>
+   <SynthDefn>
+      <UWI>490252319500</UWI>
+      <Name>Synthetic</Name>
+      <LeftLineID>3D</LeftLineID>
+      <RightLineID>3D</RightLineID>
+      <LeftLocation Trace="122" Line="216"/>
+      <RightLocation Trace="122" Line="215"/>
+      <IsDynamic>True</IsDynamic>
+      <IsOverlay>False</IsOverlay>
+      <DensityName></DensityName>
+      <DensitySource></DensitySource>
+      <SonicName>DT</SonicName>
+      <SonicSource>PFJ</SonicSource>
+      <OutputRMS>10000.000000</OutputRMS>
+      <SampleRate>0.002000</SampleRate>
+      <WaveletType>Ricker</WaveletType>
+      <RickerFrequency>40.000000</RickerFrequency>
+      <Phase>0.000000</Phase>
+      <Temperature>1.000000</Temperature>
+   </SynthDefn>
+   <SynthDefn>
+      <UWI>490252319500</UWI>
+      <Name>Synthetic</Name>
+      <LeftLineID>3D</LeftLineID>
+      <RightLineID>3D</RightLineID>
+      <LeftLocation Trace="71" Line="256"/>
+      <RightLocation Trace="72" Line="255"/>
+      <IsDynamic>True</IsDynamic>
+      <IsOverlay>False</IsOverlay>
+      <DensityName></DensityName>
+      <DensitySource></DensitySource>
+      <SonicName>DT</SonicName>
+      <SonicSource>PFJ</SonicSource>
+      <OutputRMS>10000.000000</OutputRMS>
+      <SampleRate>0.002000</SampleRate>
+      <WaveletType>Ricker</WaveletType>
+      <RickerFrequency>38.000000</RickerFrequency>
+      <Phase>0.000000</Phase>
+      <Temperature>0.750000</Temperature>
+   </SynthDefn>
+   <SynthDefn>
+      <UWI>Well 1</UWI>
+      <Name>Synthetic</Name>
+      <LeftLineID>3D</LeftLineID>
+      <RightLineID>3D</RightLineID>
+      <LeftLocation Trace="69" Line="254"/>
+      <RightLocation Trace="69" Line="255"/>
+      <IsDynamic>True</IsDynamic>
+      <IsOverlay>False</IsOverlay>
+      <DensityName></DensityName>
+      <DensitySource></DensitySource>
+      <SonicName>DT_ED</SonicName>
+      <SonicSource></SonicSource>
+      <OutputRMS>10000.000000</OutputRMS>
+      <SampleRate>0.002000</SampleRate>
+      <WaveletType>File</WaveletType>
+      <WaveletFile>Wavelets\wav.sgy</WaveletFile>
+      <Phase>-36.000000</Phase>
+      <Temperature>1.000000</Temperature>
+   </SynthDefn>
+   <SynthDefn>
+      <UWI>Well 1</UWI>
+      <Name>Synthetic</Name>
+      <LeftLineID>3D</LeftLineID>
+      <RightLineID>3D</RightLineID>
+      <LeftLocation Trace="69" Line="254"/>
+      <RightLocation Trace="70" Line="254"/>
+      <IsDynamic>True</IsDynamic>
+      <IsOverlay>False</IsOverlay>
+      <DensityName></DensityName>
+      <DensitySource></DensitySource>
+      <SonicName>DT</SonicName>
+      <SonicSource></SonicSource>
+      <OutputRMS>10000.000000</OutputRMS>
+      <SampleRate>0.002000</SampleRate>
+      <WaveletType>File</WaveletType>
+      <WaveletFile>Wavelets\wav.sgy</WaveletFile>
+      <Phase>0.000000</Phase>
+      <Temperature>1.000000</Temperature>
+   </SynthDefn>
+   <SynthDefn>
+      <UWI>Well 1</UWI>
+      <Name>Well1_3d__wav_Synthetic</Name>
+      <LeftLineID>3D</LeftLineID>
+      <RightLineID>3D</RightLineID>
+      <LeftLocation Trace="70" Line="255"/>
+      <RightLocation Trace="69" Line="254"/>
+      <IsDynamic>False</IsDynamic>
+      <IsOverlay>False</IsOverlay>
+   </SynthDefn>
+</SeisWare>

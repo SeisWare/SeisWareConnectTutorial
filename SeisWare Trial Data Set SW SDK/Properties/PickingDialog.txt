@@ -1,0 +1,7 @@
+# <Picking Dialog Defaults File>
+
+struct Parameters {
+    LastHorizon LastFault LastMarkerGroup
+}
+
+Parameters "Top 1" "main" ""

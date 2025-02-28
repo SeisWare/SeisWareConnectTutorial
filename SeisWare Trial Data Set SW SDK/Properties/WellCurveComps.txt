@@ -1,0 +1,8 @@
+#<Computations MRU V1.0>
+"inverted sonic"	(1/"DT")*100000
+"inverted sonic"	(1/"DT")*1000000
+"inverted sonic"	(1/"DT")*10000
+"inverted sonic"	(1/"DT")*1000
+"inverted sonic"	1/("DT"*3.2808)
+"inverted sonic"	1000/("DT"*3.2808)
+"inverted sonic"	1/"DT"

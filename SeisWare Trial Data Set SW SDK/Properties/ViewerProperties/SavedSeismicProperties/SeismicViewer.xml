@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--SeisWare Seismic Viewer Properties-->
+<SeisWare>
+   <Property>
+      <Name>Clipping</Name>
+      <Value>3.000000</Value>
+   </Property>
+   <Property>
+      <Name>Decimation</Name>
+      <Value>1</Value>
+   </Property>
+   <Property>
+      <Name>Direction</Name>
+      <Value>LeftToRight</Value>
+   </Property>
+   <Property>
+      <Name>Excursion</Name>
+      <Value>3.000000</Value>
+   </Property>
+   <Property>
+      <Name>VDPercentRange</Name>
+      <Value>70</Value>
+   </Property>
+   <Property>
+      <Name>VDHeatFactor</Name>
+      <Value>25</Value>
+   </Property>
+   <Property>
+      <Name>WiggleHeatFactor</Name>
+      <Value>0.250000</Value>
+   </Property>
+   <Property>
+      <Name>VDHeatSteps</Name>
+      <Value>0</Value>
+   </Property>
+   <Property>
+      <Name>WiggleHeatSteps</Name>
+      <Value>0</Value>
+   </Property>
+   <Property>
+      <Name>FillPeaks</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>FillTroughs</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>DepthScale</Name>
+      <Value>100.000000</Value>
+   </Property>
+   <Property>
+      <Name>TraceZoomStep</Name>
+      <Value>10</Value>
+   </Property>
+   <Property>
+      <Name>VerticalZoomStep</Name>
+      <Value>10</Value>
+   </Property>
+   <Property>
+      <Name>DepthScaleType</Name>
+      <Value>MetersPerInch</Value>
+   </Property>
+   <Property>
+      <Name>InchesPerSecond</Name>
+      <Value>7.500000</Value>
+   </Property>
+   <Property>
+      <Name>LockTPI</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>LinesPerInch</Name>
+      <Value>16.000000</Value>
+   </Property>
+   <Property>
+      <Name>TracesPerInch</Name>
+      <Value>16.000000</Value>
+   </Property>
+   <Property>
+      <Name>ScaleX</Name>
+      <Value>3.185606</Value>
+   </Property>
+   <Property>
+      <Name>ScaleY</Name>
+      <Value>1.175879</Value>
+   </Property>
+   <Property>
+      <Name>MapScale</Name>
+      <Value>10000.000016</Value>
+   </Property>
+   <Property>
+      <Name>UseMapScale</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>RememberHeatProps</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>OverlaySkip</Name>
+      <Value>1</Value>
+   </Property>
+   <Property>
+      <Name>ZoomOverlaySkip</Name>
+      <Value>1</Value>
+   </Property>
+   <Property>
+      <Name>Polarity</Name>
+      <Value>Normal</Value>
+   </Property>
+   <Property>
+      <Name>ZoomFillPeaks</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>ZoomFillTroughs</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>UseZoomAttributes</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>ScaleType</Name>
+      <Value>FilePeak</Value>
+   </Property>
+   <Property>
+      <Name>UseOverlayScale</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>OverlayScaleType</Name>
+      <Value>FilePeak</Value>
+   </Property>
+   <Property>
+      <Name>OverlayStyle</Name>
+      <Value>None</Value>
+   </Property>
+   <Property>
+      <Name>OverlaySynthDeviated</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>OverlaySynthOverlap</Name>
+      <Value>0</Value>
+   </Property>
+   <Property>
+      <Name>OverlaySynthStyle</Name>
+      <Value>WiggleVA</Value>
+   </Property>
+   <Property>
+      <Name>WiggleStyle</Name>
+      <Value>InterpolatedVD</Value>
+   </Property>
+   <Property>
+      <Name>SliceWiggleStyle</Name>
+      <Value>InterpolatedVD</Value>
+   </Property>
+   <Property>
+      <Name>SynthWiggleStyle</Name>
+      <Value>None</Value>
+   </Property>
+   <Property>
+      <Name>ZoomOverlayStyle</Name>
+      <Value>None</Value>
+   </Property>
+   <Property>
+      <Name>ZoomWiggleStyle</Name>
+      <Value>WiggleVA</Value>
+   </Property>
+   <Color>
+      <Name>ActiveIntersection</Name>
+      <Red>255</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Property>
+      <Name>AnnotateSubSea</Name>
+      <Value>true</Value>
+   </Property>
+   <Color>
+      <Name>Annotation</Name>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Color>
+      <Name>Background</Name>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+   </Color>
+   <Color>
+      <Name>Cursor</Name>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Color>
+      <Name>Wiggle</Name>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Color>
+      <Name>PeakFill</Name>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>255</Blue>
+   </Color>
+   <Color>
+      <Name>TroughFill</Name>
+      <Red>255</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Color>
+      <Name>WellColorSliceAbove</Name>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Color>
+      <Name>WellColorSliceBelow</Name>
+      <Red>100</Red>
+      <Green>100</Green>
+      <Blue>100</Blue>
+   </Color>
+   <Color>
+      <Name>WellColorInFront</Name>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Color>
+      <Name>WellColorBehind</Name>
+      <Red>100</Red>
+      <Green>100</Green>
+      <Blue>100</Blue>
+   </Color>
+   <Color>
+      <Name>SynthWiggle</Name>
+      <Red>255</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Color>
+      <Name>SynthPeak</Name>
+      <Red>255</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Color>
+      <Name>SynthTrough</Name>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>255</Blue>
+   </Color>
+   <Property>
+      <Name>Font</Name>
+      <Value>Courier New</Value>
+   </Property>
+   <Property>
+      <Name>FontSize</Name>
+      <Value>10</Value>
+   </Property>
+   <Color>
+      <Name>Horizon</Name>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Property>
+      <Name>HorizonFont</Name>
+      <Value>Microsoft Sans Serif</Value>
+   </Property>
+   <Property>
+      <Name>HorizonFontSize</Name>
+      <Value>10</Value>
+   </Property>
+   <Property>
+      <Name>HorizonMode</Name>
+      <Value>Thick</Value>
+   </Property>
+   <Property>
+      <Name>HorizonOverlay</Name>
+      <Value>0</Value>
+   </Property>
+   <Property>
+      <Name>DisplayContacts</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>ShowHorizonInts</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>ShowHorizonLabels</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>ShowHorizonGraph</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>ShowSegmentInts</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>ShowFaultInts</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>ShowFaultTriangleInts</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>ShowFaultSegInts</Name>
+      <Value>true</Value>
+   </Property>
+   <Color>
+      <Name>Fault</Name>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Property>
+      <Name>FaultFont</Name>
+      <Value>Microsoft Sans Serif</Value>
+   </Property>
+   <Property>
+      <Name>FaultFontSize</Name>
+      <Value>10</Value>
+   </Property>
+   <Property>
+      <Name>FaultMode</Name>
+      <Value>Thick</Value>
+   </Property>
+   <Property>
+      <Name>FaultOverlay</Name>
+      <Value>0</Value>
+   </Property>
+   <Property>
+      <Name>GraphAxisDir</Name>
+      <Value>MaxOnTop</Value>
+   </Property>
+   <Property>
+      <Name>GraphRangeAll</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>ShowActiveIntersections</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>ShowCDPs</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>ShowLineInts</Name>
+      <Value>Anno
+</Value>
+   </Property>
+   <Property>
+      <Name>DefinedUseTimeRange</Name>
+      <Value>False</Value>
+   </Property>
+   <Property>
+      <Name>DefinedStartTime</Name>
+      <Value>0.000000</Value>
+   </Property>
+   <Property>
+      <Name>DefinedEndTime</Name>
+      <Value>2000.000000</Value>
+   </Property>
+   <Property>
+      <Name>DefinedUseDepthRange</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>DefinedStartDepth</Name>
+      <Value>500.000000</Value>
+   </Property>
+   <Property>
+      <Name>DefinedEndDepth</Name>
+      <Value>-500.000000</Value>
+   </Property>
+   <Property>
+      <Name>WellAngle</Name>
+      <Value>25.000000</Value>
+   </Property>
+   <Property>
+      <Name>WellAnnotation</Name>
+      <Value>UWI</Value>
+   </Property>
+   <Property>
+      <Name>WellAnnoLocation</Name>
+      <Value>Bottom</Value>
+   </Property>
+   <Property>
+      <Name>WellBoreMode</Name>
+      <Value>Thick</Value>
+   </Property>
+   <Property>
+      <Name>WellDistance</Name>
+      <Value>150.000000</Value>
+   </Property>
+   <Property>
+      <Name>ClipBoresToDistance</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>WellProjRef</Name>
+      <Value>TopAndBottom</Value>
+   </Property>
+   <Property>
+      <Name>WellSymSizeAnno</Name>
+      <Value>0.300000</Value>
+   </Property>
+   <Property>
+      <Name>WellSymSizeSlice</Name>
+      <Value>0.300000</Value>
+   </Property>
+   <Property>
+      <Name>NumSynthTraces</Name>
+      <Value>3</Value>
+   </Property>
+   <Property>
+      <Name>SyncSynthsAndCurves</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>MajorInterval</Name>
+      <Value>500</Value>
+   </Property>
+   <Property>
+      <Name>MinorInterval</Name>
+      <Value>100</Value>
+   </Property>
+   <Property>
+      <Name>ShowMajorLines</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>ShowMinorLines</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>UserMin</Name>
+      <Value>0.000000</Value>
+   </Property>
+   <Property>
+      <Name>UserMax</Name>
+      <Value>100.000000</Value>
+   </Property>
+   <Property>
+      <Name>OverlayMin</Name>
+      <Value>0.000000</Value>
+   </Property>
+   <Property>
+      <Name>OverlayMax</Name>
+      <Value>100.000000</Value>
+   </Property>
+   <Color>
+      <Name>TopsColor</Name>
+      <Red>0</Red>
+      <Green>200</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Property>
+      <Name>TopsLabelBG</Name>
+      <Value>Opaque</Value>
+   </Property>
+   <Property>
+      <Name>TopsLabelLocation</Name>
+      <Value>Right</Value>
+   </Property>
+   <Property>
+      <Name>TopsFont</Name>
+      <Value>Courier New</Value>
+   </Property>
+   <Property>
+      <Name>TopsListName</Name>
+      <Value></Value>
+   </Property>
+   <Property>
+      <Name>TopsUseDefaultList</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>TopsFontSize</Name>
+      <Value>10</Value>
+   </Property>
+   <Property>
+      <Name>TopsTicks</Name>
+      <Value>Well</Value>
+   </Property>
+   <Property>
+      <Name>TopsValue</Name>
+      <Value>None</Value>
+   </Property>
+   <Property>
+      <Name>TopsLabels</Name>
+      <Value>Well</Value>
+   </Property>
+   <Property>
+      <Name>ZonesListName</Name>
+      <Value></Value>
+   </Property>
+   <Property>
+      <Name>ZonesUseDefaultList</Name>
+      <Value>true</Value>
+   </Property>
+   <Color>
+      <Name>Curve</Name>
+      <Red>128</Red>
+      <Green>128</Green>
+      <Blue>255</Blue>
+   </Color>
+   <Color>
+      <Name>Sonic</Name>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>128</Blue>
+   </Color>
+   <Color>
+      <Name>Density</Name>
+      <Red>0</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+   </Color>
+   <Color>
+      <Name>GammaRay</Name>
+      <Red>0</Red>
+      <Green>255</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Property>
+      <Name>CurveOverlay</Name>
+      <Value>0</Value>
+   </Property>
+   <Property>
+      <Name>CurvesDeviated</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>CurveTrackWidth</Name>
+      <Value>1.000000</Value>
+   </Property>
+   <Property>
+      <Name>CurveTrackLocation</Name>
+      <Value>Off</Value>
+   </Property>
+   <Property>
+      <Name>CurveMode</Name>
+      <Value>Thin</Value>
+   </Property>
+   <Property>
+      <Name>ShowAutoDensities</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>ShowAutoGammaRays</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>ShowAutoSonics</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>ShowAutoVelCurve</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>UseLogTemplate</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>LogTemplate</Name>
+      <Value></Value>
+   </Property>
+   <Property>
+      <Name>LogTemplateChosen</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>TracksTemplate</Name>
+      <Value>00000000-0000-0000-0000-000000000000</Value>
+   </Property>
+   <Property>
+      <Name>ShowTemplateBackground</Name>
+      <Value>true</Value>
+   </Property>
+   <Property>
+      <Name>OverrideColorbarIncrement</Name>
+      <Value>false</Value>
+   </Property>
+   <Property>
+      <Name>ColorbarIncrement</Name>
+      <Value>1000.000000</Value>
+   </Property>
+   <Property>
+      <Name>TrackingLineStyle</Name>
+      <Value>Dashed</Value>
+   </Property>
+   <Color>
+      <Name>TrackingLineColor</Name>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>0</Blue>
+   </Color>
+   <Property>
+      <Name>TrackingLineSize</Name>
+      <Value>1</Value>
+   </Property>
+   <Property>
+      <Name>TrackingLineXOR</Name>
+      <Value>true</Value>
+   </Property>
+   <ColorPalette>
+      <Name></Name>
+      <Colors Red="255" Green="16" Blue="1"/>
+      <Colors Red="255" Green="18" Blue="3"/>
+      <Colors Red="255" Green="20" Blue="5"/>
+      <Colors Red="255" Green="21" Blue="7"/>
+      <Colors Red="255" Green="23" Blue="9"/>
+      <Colors Red="255" Green="25" Blue="11"/>
+      <Colors Red="255" Green="27" Blue="12"/>
+      <Colors Red="255" Green="28" Blue="14"/>
+      <Colors Red="255" Green="30" Blue="16"/>
+      <Colors Red="255" Green="32" Blue="18"/>
+      <Colors Red="254" Green="34" Blue="20"/>
+      <Colors Red="254" Green="35" Blue="22"/>
+      <Colors Red="254" Green="37" Blue="24"/>
+      <Colors Red="254" Green="39" Blue="26"/>
+      <Colors Red="254" Green="41" Blue="28"/>
+      <Colors Red="254" Green="43" Blue="30"/>
+      <Colors Red="254" Green="44" Blue="31"/>
+      <Colors Red="254" Green="46" Blue="33"/>
+      <Colors Red="254" Green="48" Blue="35"/>
+      <Colors Red="254" Green="50" Blue="37"/>
+      <Colors Red="254" Green="51" Blue="39"/>
+      <Colors Red="254" Green="53" Blue="41"/>
+      <Colors Red="254" Green="55" Blue="43"/>
+      <Colors Red="254" Green="57" Blue="45"/>
+      <Colors Red="254" Green="59" Blue="47"/>
+      <Colors Red="254" Green="60" Blue="49"/>
+      <Colors Red="254" Green="62" Blue="51"/>
+      <Colors Red="254" Green="64" Blue="52"/>
+      <Colors Red="253" Green="66" Blue="54"/>
+      <Colors Red="253" Green="67" Blue="56"/>
+      <Colors Red="253" Green="69" Blue="58"/>
+      <Colors Red="253" Green="71" Blue="60"/>
+      <Colors Red="253" Green="73" Blue="62"/>
+      <Colors Red="253" Green="74" Blue="64"/>
+      <Colors Red="253" Green="76" Blue="66"/>
+      <Colors Red="253" Green="78" Blue="68"/>
+      <Colors Red="253" Green="80" Blue="70"/>
+      <Colors Red="253" Green="82" Blue="72"/>
+      <Colors Red="253" Green="83" Blue="73"/>
+      <Colors Red="253" Green="85" Blue="75"/>
+      <Colors Red="253" Green="87" Blue="77"/>
+      <Colors Red="253" Green="89" Blue="79"/>
+      <Colors Red="253" Green="90" Blue="81"/>
+      <Colors Red="253" Green="92" Blue="83"/>
+      <Colors Red="253" Green="94" Blue="85"/>
+      <Colors Red="253" Green="96" Blue="87"/>
+      <Colors Red="252" Green="97" Blue="89"/>
+      <Colors Red="252" Green="99" Blue="91"/>
+      <Colors Red="252" Green="101" Blue="92"/>
+      <Colors Red="252" Green="103" Blue="94"/>
+      <Colors Red="252" Green="105" Blue="96"/>
+      <Colors Red="252" Green="106" Blue="98"/>
+      <Colors Red="252" Green="108" Blue="100"/>
+      <Colors Red="252" Green="110" Blue="102"/>
+      <Colors Red="252" Green="112" Blue="104"/>
+      <Colors Red="252" Green="113" Blue="106"/>
+      <Colors Red="252" Green="115" Blue="108"/>
+      <Colors Red="252" Green="117" Blue="110"/>
+      <Colors Red="252" Green="119" Blue="112"/>
+      <Colors Red="252" Green="121" Blue="113"/>
+      <Colors Red="252" Green="122" Blue="115"/>
+      <Colors Red="252" Green="124" Blue="117"/>
+      <Colors Red="252" Green="126" Blue="119"/>
+      <Colors Red="252" Green="128" Blue="121"/>
+      <Colors Red="251" Green="129" Blue="123"/>
+      <Colors Red="251" Green="131" Blue="125"/>
+      <Colors Red="251" Green="133" Blue="127"/>
+      <Colors Red="251" Green="135" Blue="129"/>
+      <Colors Red="251" Green="136" Blue="131"/>
+      <Colors Red="251" Green="138" Blue="132"/>
+      <Colors Red="251" Green="140" Blue="134"/>
+      <Colors Red="251" Green="142" Blue="136"/>
+      <Colors Red="251" Green="144" Blue="138"/>
+      <Colors Red="251" Green="145" Blue="140"/>
+      <Colors Red="251" Green="147" Blue="142"/>
+      <Colors Red="251" Green="149" Blue="144"/>
+      <Colors Red="251" Green="151" Blue="146"/>
+      <Colors Red="251" Green="152" Blue="148"/>
+      <Colors Red="251" Green="154" Blue="150"/>
+      <Colors Red="251" Green="156" Blue="152"/>
+      <Colors Red="251" Green="158" Blue="153"/>
+      <Colors Red="251" Green="160" Blue="155"/>
+      <Colors Red="250" Green="161" Blue="157"/>
+      <Colors Red="250" Green="163" Blue="159"/>
+      <Colors Red="250" Green="165" Blue="161"/>
+      <Colors Red="250" Green="167" Blue="163"/>
+      <Colors Red="250" Green="168" Blue="165"/>
+      <Colors Red="250" Green="170" Blue="167"/>
+      <Colors Red="250" Green="172" Blue="169"/>
+      <Colors Red="250" Green="174" Blue="171"/>
+      <Colors Red="250" Green="175" Blue="172"/>
+      <Colors Red="250" Green="177" Blue="174"/>
+      <Colors Red="250" Green="179" Blue="176"/>
+      <Colors Red="250" Green="181" Blue="178"/>
+      <Colors Red="250" Green="183" Blue="180"/>
+      <Colors Red="250" Green="184" Blue="182"/>
+      <Colors Red="250" Green="186" Blue="184"/>
+      <Colors Red="250" Green="188" Blue="186"/>
+      <Colors Red="250" Green="190" Blue="188"/>
+      <Colors Red="250" Green="191" Blue="190"/>
+      <Colors Red="249" Green="193" Blue="192"/>
+      <Colors Red="249" Green="195" Blue="193"/>
+      <Colors Red="249" Green="197" Blue="195"/>
+      <Colors Red="249" Green="198" Blue="197"/>
+      <Colors Red="249" Green="200" Blue="199"/>
+      <Colors Red="249" Green="202" Blue="201"/>
+      <Colors Red="249" Green="204" Blue="203"/>
+      <Colors Red="249" Green="206" Blue="205"/>
+      <Colors Red="249" Green="207" Blue="207"/>
+      <Colors Red="249" Green="209" Blue="209"/>
+      <Colors Red="249" Green="211" Blue="211"/>
+      <Colors Red="249" Green="213" Blue="213"/>
+      <Colors Red="249" Green="214" Blue="214"/>
+      <Colors Red="249" Green="216" Blue="216"/>
+      <Colors Red="249" Green="218" Blue="218"/>
+      <Colors Red="249" Green="220" Blue="220"/>
+      <Colors Red="249" Green="222" Blue="222"/>
+      <Colors Red="249" Green="223" Blue="224"/>
+      <Colors Red="248" Green="225" Blue="226"/>
+      <Colors Red="248" Green="227" Blue="228"/>
+      <Colors Red="248" Green="229" Blue="230"/>
+      <Colors Red="248" Green="230" Blue="232"/>
+      <Colors Red="248" Green="232" Blue="233"/>
+      <Colors Red="248" Green="234" Blue="235"/>
+      <Colors Red="248" Green="236" Blue="237"/>
+      <Colors Red="248" Green="237" Blue="239"/>
+      <Colors Red="248" Green="239" Blue="241"/>
+      <Colors Red="248" Green="241" Blue="243"/>
+      <Colors Red="246" Green="239" Blue="241"/>
+      <Colors Red="244" Green="237" Blue="239"/>
+      <Colors Red="242" Green="236" Blue="237"/>
+      <Colors Red="241" Green="234" Blue="236"/>
+      <Colors Red="239" Green="232" Blue="234"/>
+      <Colors Red="237" Green="230" Blue="232"/>
+      <Colors Red="235" Green="228" Blue="230"/>
+      <Colors Red="233" Green="227" Blue="228"/>
+      <Colors Red="231" Green="225" Blue="226"/>
+      <Colors Red="229" Green="223" Blue="224"/>
+      <Colors Red="228" Green="221" Blue="222"/>
+      <Colors Red="226" Green="219" Blue="221"/>
+      <Colors Red="224" Green="218" Blue="219"/>
+      <Colors Red="222" Green="216" Blue="217"/>
+      <Colors Red="220" Green="214" Blue="215"/>
+      <Colors Red="218" Green="212" Blue="213"/>
+      <Colors Red="217" Green="210" Blue="211"/>
+      <Colors Red="215" Green="209" Blue="209"/>
+      <Colors Red="213" Green="207" Blue="208"/>
+      <Colors Red="211" Green="205" Blue="206"/>
+      <Colors Red="209" Green="203" Blue="204"/>
+      <Colors Red="207" Green="201" Blue="202"/>
+      <Colors Red="205" Green="200" Blue="200"/>
+      <Colors Red="204" Green="198" Blue="198"/>
+      <Colors Red="202" Green="196" Blue="196"/>
+      <Colors Red="200" Green="194" Blue="194"/>
+      <Colors Red="198" Green="192" Blue="193"/>
+      <Colors Red="196" Green="191" Blue="191"/>
+      <Colors Red="194" Green="189" Blue="189"/>
+      <Colors Red="192" Green="187" Blue="187"/>
+      <Colors Red="191" Green="185" Blue="185"/>
+      <Colors Red="189" Green="183" Blue="183"/>
+      <Colors Red="187" Green="182" Blue="181"/>
+      <Colors Red="185" Green="180" Blue="180"/>
+      <Colors Red="183" Green="178" Blue="178"/>
+      <Colors Red="181" Green="176" Blue="176"/>
+      <Colors Red="179" Green="175" Blue="174"/>
+      <Colors Red="178" Green="173" Blue="172"/>
+      <Colors Red="176" Green="171" Blue="170"/>
+      <Colors Red="174" Green="169" Blue="168"/>
+      <Colors Red="172" Green="167" Blue="166"/>
+      <Colors Red="170" Green="166" Blue="165"/>
+      <Colors Red="168" Green="164" Blue="163"/>
+      <Colors Red="167" Green="162" Blue="161"/>
+      <Colors Red="165" Green="160" Blue="159"/>
+      <Colors Red="163" Green="158" Blue="157"/>
+      <Colors Red="161" Green="157" Blue="155"/>
+      <Colors Red="159" Green="155" Blue="153"/>
+      <Colors Red="157" Green="153" Blue="152"/>
+      <Colors Red="155" Green="151" Blue="150"/>
+      <Colors Red="154" Green="149" Blue="148"/>
+      <Colors Red="152" Green="148" Blue="146"/>
+      <Colors Red="150" Green="146" Blue="144"/>
+      <Colors Red="148" Green="144" Blue="142"/>
+      <Colors Red="146" Green="142" Blue="140"/>
+      <Colors Red="144" Green="140" Blue="138"/>
+      <Colors Red="142" Green="139" Blue="137"/>
+      <Colors Red="141" Green="137" Blue="135"/>
+      <Colors Red="139" Green="135" Blue="133"/>
+      <Colors Red="137" Green="133" Blue="131"/>
+      <Colors Red="135" Green="131" Blue="129"/>
+      <Colors Red="133" Green="130" Blue="127"/>
+      <Colors Red="131" Green="128" Blue="125"/>
+      <Colors Red="129" Green="126" Blue="123"/>
+      <Colors Red="128" Green="124" Blue="122"/>
+      <Colors Red="126" Green="122" Blue="120"/>
+      <Colors Red="124" Green="121" Blue="118"/>
+      <Colors Red="122" Green="119" Blue="116"/>
+      <Colors Red="120" Green="117" Blue="114"/>
+      <Colors Red="118" Green="115" Blue="112"/>
+      <Colors Red="117" Green="113" Blue="110"/>
+      <Colors Red="115" Green="112" Blue="109"/>
+      <Colors Red="113" Green="110" Blue="107"/>
+      <Colors Red="111" Green="108" Blue="105"/>
+      <Colors Red="109" Green="106" Blue="103"/>
+      <Colors Red="107" Green="104" Blue="101"/>
+      <Colors Red="105" Green="103" Blue="99"/>
+      <Colors Red="104" Green="101" Blue="97"/>
+      <Colors Red="102" Green="99" Blue="95"/>
+      <Colors Red="100" Green="97" Blue="94"/>
+      <Colors Red="98" Green="95" Blue="92"/>
+      <Colors Red="96" Green="94" Blue="90"/>
+      <Colors Red="94" Green="92" Blue="88"/>
+      <Colors Red="92" Green="90" Blue="86"/>
+      <Colors Red="91" Green="88" Blue="84"/>
+      <Colors Red="89" Green="86" Blue="82"/>
+      <Colors Red="87" Green="85" Blue="81"/>
+      <Colors Red="85" Green="83" Blue="79"/>
+      <Colors Red="83" Green="81" Blue="77"/>
+      <Colors Red="81" Green="79" Blue="75"/>
+      <Colors Red="80" Green="77" Blue="73"/>
+      <Colors Red="78" Green="76" Blue="71"/>
+      <Colors Red="76" Green="74" Blue="69"/>
+      <Colors Red="74" Green="72" Blue="67"/>
+      <Colors Red="72" Green="70" Blue="66"/>
+      <Colors Red="70" Green="68" Blue="64"/>
+      <Colors Red="68" Green="67" Blue="62"/>
+      <Colors Red="67" Green="65" Blue="60"/>
+      <Colors Red="65" Green="63" Blue="58"/>
+      <Colors Red="63" Green="61" Blue="56"/>
+      <Colors Red="61" Green="60" Blue="54"/>
+      <Colors Red="59" Green="58" Blue="53"/>
+      <Colors Red="57" Green="56" Blue="51"/>
+      <Colors Red="55" Green="54" Blue="49"/>
+      <Colors Red="54" Green="52" Blue="47"/>
+      <Colors Red="52" Green="51" Blue="45"/>
+      <Colors Red="50" Green="49" Blue="43"/>
+      <Colors Red="48" Green="47" Blue="41"/>
+      <Colors Red="46" Green="45" Blue="39"/>
+      <Colors Red="44" Green="43" Blue="38"/>
+      <Colors Red="42" Green="42" Blue="36"/>
+      <Colors Red="41" Green="40" Blue="34"/>
+      <Colors Red="39" Green="38" Blue="32"/>
+      <Colors Red="37" Green="36" Blue="30"/>
+      <Colors Red="35" Green="34" Blue="28"/>
+      <Colors Red="33" Green="33" Blue="26"/>
+      <Colors Red="31" Green="31" Blue="25"/>
+      <Colors Red="30" Green="29" Blue="23"/>
+      <Colors Red="28" Green="27" Blue="21"/>
+      <Colors Red="26" Green="25" Blue="19"/>
+      <Colors Red="24" Green="24" Blue="17"/>
+      <Colors Red="22" Green="22" Blue="15"/>
+      <Colors Red="20" Green="20" Blue="13"/>
+      <Colors Red="18" Green="18" Blue="11"/>
+      <Colors Red="17" Green="16" Blue="10"/>
+      <Colors Red="15" Green="15" Blue="8"/>
+      <Colors Red="13" Green="13" Blue="6"/>
+      <Colors Red="11" Green="11" Blue="4"/></ColorPalette></SeisWare>

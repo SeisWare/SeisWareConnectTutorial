@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--SeisWare Project Properties File-->
+<SeisWare>
+   <Project>
+      <Name>SeisWare Trial Data Set</Name>
+      <Directory>C:\SeisWare Projects\Python\SeisWareConnectTutorial-master\SeisWare Trial Data Set</Directory>
+      <DataDirectory>C:\SeisWare Projects\Python\SeisWareConnectTutorial-master\SeisWare Trial Data Set</DataDirectory>
+      <Description>Project for Trials</Description>
+      <DbType>SqlLocalDB</DbType>
+      <ServerName>SeisWare_13</ServerName>
+      <DatabaseName></DatabaseName>
+      <DatabaseFile></DatabaseFile>
+      <SeisXCompatible>false</SeisXCompatible>
+      <MessagingServerName></MessagingServerName>
+      <MessagingServerPort>-1</MessagingServerPort>
+      <ID>13</ID>
+      <CoordinateSystem.Name></CoordinateSystem.Name>
+      <CoordinateSystem.EPSGCode>32056</CoordinateSystem.EPSGCode>
+      <CoordinateSystem.WKTDefinition></CoordinateSystem.WKTDefinition>
+      <CoordinateSystem.UnitCode>-1</CoordinateSystem.UnitCode>
+      <CoordinateSystem.UnitOverrideCode>-1</CoordinateSystem.UnitOverrideCode>
+      <SurfaceUnits>Feet</SurfaceUnits>
+      <DepthUnits>Feet</DepthUnits>
+      <LastUpdated>2024-11-13 15:55:30</LastUpdated>
+      <Version>10.7</Version></Project></SeisWare>

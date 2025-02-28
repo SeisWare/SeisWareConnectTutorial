@@ -1,0 +1,315 @@
+# <Scale Settings>
+
+struct LayerDefault { Name }
+
+struct Layer { Name }
+
+struct LayerOrder { Name IsActive }
+
+struct Color { Name Red Green Blue }
+
+struct Parameter { Name Value }
+
+struct DrawUnit { Name Unit Size }
+
+struct Font { Name StrikeOut Red Green Blue Unit Size FontName }
+
+struct Symbol { Name Shape Filled Unit Size }
+
+struct SymbolColored { Name Shape Filled Unit Size MarkerFillRed MarkerFillGreen MarkerFillBlue MarkerEdgeRed MarkerEdgeGreen MarkerEdgeBlue  }
+
+struct Posting { Name isNice StartType StartValue1 StartValue2 EndType EndValue1 EndValue2 IncType IncValue1 IncValue2  }
+
+struct Point { Name x y }
+
+struct Rect { Name x1 y1 x2 y2 }
+
+struct StringVector { Name Entries[ N ]{ Value }}
+
+struct WellInfo { Name Active Customized UseSubSea Field Type SubstrRangeStart SubstrRangeEnd SubstrSearchStart SubstrSearchEnd Format RegExp ScaleValue SubtractValue Location RelativeTo Criteria IncludeFieldName StrikeOut Red Green Blue Unit Size FontName  }
+
+struct IEPolygons { Name Polygons[ N ]{ Value }}
+
+struct CriteriaEntry {Enabled Type Expression Red Green Blue
+ScaleFactor RelativeTo UseSubSea UseMarker HasAny Negate Shape Filled Unit Size MarkerFillRed MarkerFillGreen MarkerFillBlue MarkerEdgeRed MarkerEdgeGreen MarkerEdgeBlue 
+MarkerBubbleValue MarkerLogarithmic MarkerSizeMinUnit MarkerSizeMinSize MarkerSizeMaxUnit MarkerSizeMaxSize
+SourceAny2 SourceMatch2 Source[ N ]{ Value } }
+
+struct NamedEntry { Name Value }
+struct VisEntry {
+ SeismicLabelingOn   SeismicLabelingOff 
+ SeismicRibbonsOn   SeismicRibbonsOff 
+ SeismicOutlineOn   SeismicOutlineOff 
+ GridLabelingOn   GridLabelingOff 
+ GridRibbonsOn   GridRibbonsOff 
+ GridOutlineOn   GridOutlineOff 
+ GridLinesOn   GridLinesOff 
+ WellLabelingOn   WellLabelingOff 
+ WellRibbonsOn   WellRibbonsOff 
+ WellCriteriaOn   WellCriteriaOff 
+ WellSymbolsOn   WellSymbolsOff 
+ GenericCultureOn   GenericCultureOff 
+ HeaveCultureOn   HeaveCultureOff 
+ ExclusionCultureOn   ExclusionCultureOff 
+ InclusionCultureOn   InclusionCultureOff 
+ OverlapCultureOn   OverlapCultureOff 
+ ContourCultureOn   ContourCultureOff 
+ BodiesOfWaterCultureOn   BodiesOfWaterCultureOff 
+ GridCultureOn   GridCultureOff 
+ LsdCultureOn   LsdCultureOff 
+ CrownLandCultureOn   CrownLandCultureOff 
+ ProprietaryLandCultureOn   ProprietaryLandCultureOff 
+ LandBoundariesCultureOn   LandBoundariesCultureOff 
+ LandReservesCultureOn   LandReservesCultureOff 
+ PipelinesCultureOn   PipelinesCultureOff 
+ RoadsCultureOn   RoadsCultureOff 
+ SectionslinesCultureOn   SectionslinesCultureOff 
+ TownsCultureOn   TownsCultureOff 
+ FaultLineCultureOn   FaultLineCultureOff 
+ TownshipCultureOn  TownshipCultureOff 
+ GeologicEdgesCultureOn  GeologicEdgesCultureOff 
+ StickyNotesCultureOn  StickyNotesCultureOff 
+ LandSalesCultureOn  LandSalesCultureOff 
+ Misc1CultureOn  Misc1CultureOff 
+ Misc2CultureOn  Misc2CultureOff 
+ RastersOn  RastersOff 
+ }
+
+struct PredefinedHCIPEntry {
+Name AverageThickness Porosity H2OSaturation FormationVolumeFactor RecoveryFactor  }
+
+struct WellCurveAttributes { Name 
+Enabled CurveName IsStacked FlipCurve Logarithmic AutoScale ScaleMin ScaleMax Red Green Blue
+ }
+
+struct WellDeviationDisplay { Name 
+Enabled TopName Style Width Red Green Blue
+ }
+
+struct ColorPalette {
+    Name
+    Colors [ N ] {
+        Red Green Blue
+    }
+}
+
+struct ColorMarkers {
+    Markers [ N ] {
+        Visible Min Max Red Green Blue
+    }
+}
+
+Parameter AutoScaleSave True
+Parameter AutoScaleRibbon True
+Parameter AutoScaleRibbonToWindow True
+Parameter AutoScaleRibbonToWindowLock False
+Parameter ClipRibbonData False
+Parameter MinimumRibbonValue 1058.14
+Parameter MaximumRibbonValue 1117.77
+Parameter UsePercentage False
+Parameter RibbonScaling "Normal"
+Parameter ColorPaletteName "Rainbow 2"
+
+ColorPalette "Rainbow 2" 200
+153 102 255
+149 99 255
+145 97 255
+141 94 255
+137 91 255
+133 89 255
+129 86 255
+125 83 255
+121 81 255
+117 78 255
+113 75 255
+108 72 255
+104 70 255
+100 67 255
+96 64 255
+92 62 255
+88 59 255
+84 56 255
+80 54 255
+76 51 255
+72 48 255
+68 46 254
+65 44 254
+61 43 253
+58 41 252
+54 39 252
+50 37 251
+47 36 250
+43 34 250
+40 32 249
+36 30 248
+32 29 248
+29 27 247
+25 25 247
+22 23 246
+18 22 245
+14 20 245
+11 18 244
+7 16 243
+7 21 238
+6 26 232
+6 32 227
+6 37 221
+5 42 216
+5 47 210
+4 52 205
+4 58 200
+4 63 194
+3 68 189
+3 73 183
+3 79 178
+2 84 173
+2 89 167
+1 94 162
+1 100 156
+1 107 149
+1 113 143
+1 120 136
+1 126 130
+1 133 123
+1 139 117
+1 146 110
+1 152 104
+1 158 97
+1 165 91
+1 171 84
+0 178 78
+0 184 71
+0 191 65
+0 197 58
+0 203 52
+0 210 45
+0 216 39
+0 223 32
+0 229 26
+0 236 19
+0 242 13
+0 249 6
+6 249 6
+12 249 6
+19 249 6
+25 250 5
+31 250 5
+37 250 5
+43 250 5
+50 250 5
+56 250 5
+62 251 4
+68 251 4
+74 251 4
+81 251 4
+87 251 4
+93 251 4
+99 251 4
+105 252 3
+112 252 3
+118 252 3
+124 252 3
+130 252 3
+137 252 3
+143 253 2
+149 253 2
+155 253 2
+161 253 2
+168 253 2
+174 253 2
+180 253 2
+186 254 1
+192 254 1
+199 254 1
+205 254 1
+211 254 1
+217 254 1
+223 255 0
+230 255 0
+231 252 0
+231 248 0
+232 245 0
+233 242 0
+233 239 0
+234 235 0
+235 232 0
+235 229 0
+236 225 0
+237 222 0
+237 219 0
+238 215 0
+239 212 0
+239 209 0
+240 206 0
+241 202 0
+241 199 0
+242 196 0
+243 192 0
+244 189 0
+244 186 0
+245 182 0
+246 179 0
+246 176 0
+247 173 0
+248 169 0
+248 166 0
+249 163 0
+250 159 0
+250 156 0
+250 153 0
+250 150 0
+250 148 0
+250 145 0
+251 142 0
+251 139 0
+251 136 0
+251 133 0
+251 131 0
+251 128 0
+251 125 0
+251 122 0
+251 119 0
+251 116 0
+251 114 0
+252 111 0
+252 108 0
+252 105 0
+252 102 0
+252 99 0
+252 97 0
+252 94 0
+252 91 0
+252 88 0
+252 85 0
+252 82 0
+253 79 0
+253 77 0
+253 74 0
+253 71 0
+253 68 0
+253 65 0
+253 62 0
+253 60 0
+253 57 0
+253 54 0
+253 51 0
+253 48 0
+254 45 0
+254 43 0
+254 40 0
+254 37 0
+254 34 0
+254 31 0
+254 28 0
+254 26 0
+254 23 0
+254 20 0
+254 17 0
+255 14 0
+255 11 0
+255 9 0
+255 6 0
+255 3 0
+255 0 0
+ColorMarkers 0
+

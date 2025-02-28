@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeisWare xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Filters>
+    <NamedAdvancedFilter ID="a6115f0c-8196-4440-b173-c8f90c233989">
+      <Name>Wells Advanced Filter</Name>
+      <OwnerID>bfa89ba5-9c84-4e20-a90d-ce483477a050</OwnerID>
+      <Description />
+      <FilterDataType>Wells</FilterDataType>
+      <AdvancedCriteria>
+        <HasDataTypeCriteria>
+          <JoinWithAnd>false</JoinWithAnd>
+          <HasDataType>HasDirectionSurvey</HasDataType>
+          <HasData>true</HasData>
+          <AllowedNames />
+          <AllowedWellZoneTypes />
+          <AllowedSources />
+          <OverrideSources>false</OverrideSources>
+          <AllowedIDs />
+        </HasDataTypeCriteria>
+      </AdvancedCriteria>
+    </NamedAdvancedFilter>
+  </Filters>
+</SeisWare>
